@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="SizeFont">สำหรับพนักงานใหม่</ion-title>
+  </ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+      <img src="../assets/img/subMenu/PreTest.png" alt="" padding-top onclick="window.open('https://docs.google.com/forms/d/1u3MORTsxfkjEWuA9YtzbwzhtTOTRKM74t4aTV0XmsqA/viewform?chromeless=1&edit_requested=true', '_system', 'location=yes'); return false;">
+      <img src="../assets/img/subMenu/PostTest.png" alt="" onclick="window.open('https://docs.google.com/forms/d/1O7M6Y6s1ydedIdG1JBRRtccnTw9AzRNsacQwKKWKGhg/viewform?chromeless=1&edit_requested=true', '_system', 'location=yes'); return false;">
+    </ion-list>
+  </ion-content>
+
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" (click)="homeClick()">
+      <ion-icon name="home"></ion-icon>
+      <ion-label >หน้าแรก</ion-label>
+    </ion-tab-button>
+  
+    
+      <ion-tab-button tab="chat" onclick="window.open('https://m.me/HRRAMA?ref=Welcome%20Message', '_system', 'location=yes'); return false;" >
+        <ion-icon name="chatboxes"></ion-icon>
+        <ion-label >ติดต่อ</ion-label>
+      </ion-tab-button>
+</ion-tab-bar> 

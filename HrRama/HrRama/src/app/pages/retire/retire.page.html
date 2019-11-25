@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="FontSize">พ้นสภาพ-เกษียณ</ion-title>
+  </ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content padding>
+    <img src="../assets/img/retireContent.png" alt="">
+</ion-content>
+
+<ion-tab-bar slot="bottom">
+  <ion-tab-button tab="home" (click)="homeClick()">
+    <ion-icon name="home"></ion-icon>
+    <ion-label >หน้าแรก</ion-label>
+  </ion-tab-button>
+
+  
+    <ion-tab-button tab="chat" onclick="window.open('https://m.me/HRRAMA?ref=Welcome%20Message', '_system', 'location=yes'); return false;" >
+      <ion-icon name="chatboxes"></ion-icon>
+      <ion-label >ติดต่อ</ion-label>
+    </ion-tab-button>
+</ion-tab-bar>
+

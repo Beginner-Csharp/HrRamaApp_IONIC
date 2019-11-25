@@ -1,0 +1,7 @@
+{
+  "name": "HrRama",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
